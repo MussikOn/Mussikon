@@ -49,40 +49,45 @@ MussikOn es una **plataforma musical especializada** que conecta músicos profes
 ---
 
 ### **📱 [FRONTEND](./frontend/README.md)**
-*React Native con Expo y TypeScript (Mantenido)*
+*React Native + Expo para móvil y React Next.js para admin*
 
-- **🏗️ Arquitectura**: [Arquitectura del Frontend](./frontend/ARQUITECTURA_FRONTEND.md)
-- **🎯 Solicitudes**: [Sistema de Solicitudes](./frontend/SOLICITUDES_MUSICOS.md)
+- **📱 Móvil**: [Stack Tecnológico Móvil](./frontend/STACK_TECNOLOGICO_MOVIL.md)
+- **🖥️ Admin**: [Stack Tecnológico Admin](./frontend/STACK_TECNOLOGICO_ADMIN.md)
+- **🎯 Solicitudes**: [Sistema de Solicitudes](./frontend/SOLICITUDES_MOVIL.md)
 - **📅 Sprints**: [Sprints del Frontend](./frontend/SPRINTS_FRONTEND.md)
 - **👥 Historias**: [Historias de Usuario](./frontend/HISTORIAS_USUARIO.md)
+- **🎯 MVP**: [Guía del MVP Frontend](./frontend/GUIA_MVP_FRONTEND.md)
 - **🧪 Testing**: [Estrategia de Testing](./frontend/TESTING_FRONTEND.md)
 - **🚀 DevOps**: [CI/CD Pipeline](./frontend/CI_CD_FRONTEND.md)
 
 **Tecnologías Principales**:
-- React Native 0.79.5+ con TypeScript
-- Expo SDK 53.0.0
-- React Navigation v7.x
-- Redux Toolkit para estado global
-- React Native Testing Library + Detox
+- **Móvil**: React Native 0.79.5+ con Expo SDK 53.0.0
+- **Admin**: React 18+ con Next.js 14+ y TypeScript
+- **Estado**: Redux Toolkit + React Query + Zustand
+- **UI**: Tailwind CSS + Headless UI + Framer Motion
+- **Testing**: Jest + React Testing Library + Cypress
 
 ---
 
 ### **🗄️ [DATABASE](./database/README.md)**
-*SQL Server/PostgreSQL con Entity Framework*
+*Supabase con PostgreSQL y APIs automáticas*
 
-- **🏗️ Arquitectura**: [Arquitectura de la Base de Datos](./database/ARQUITECTURA_DB.md)
-- **🎯 Solicitudes**: [Sistema de Solicitudes](./database/SOLICITUDES_MUSICOS.md)
+- **🏗️ Arquitectura**: [Arquitectura de la Base de Datos](./database/ARQUITECTURA_DATABASE.md)
+- **🗄️ Estructura**: [Estructura de Datos Completa](./database/ESTRUCTURA_DATOS_COMPLETA.md)
+- **🚨 Seguridad**: [Análisis Crítico de Seguridad](./database/ANALISIS_SEGURIDAD_CRITICO.md)
+- **🎯 Solicitudes**: [Sistema de Solicitudes](./database/SOLICITUDES_DATABASE.md)
 - **📅 Sprints**: [Sprints de Base de Datos](./database/SPRINTS_DATABASE.md)
 - **👥 Historias**: [Historias de Usuario](./database/HISTORIAS_USUARIO.md)
+- **🎯 MVP**: [Guía del MVP Database](./database/GUIA_MVP_DATABASE.md)
 - **🧪 Testing**: [Estrategia de Testing](./database/TESTING_DB.md)
 - **🚀 DevOps**: [CI/CD para Base de Datos](./database/CI_CD_DB.md)
 
 **Tecnologías Principales**:
-- SQL Server 2022+ / PostgreSQL 15+
-- Entity Framework Core 8.0+
-- Migraciones automáticas
-- Seed data para testing
-- Optimización de consultas
+- PostgreSQL 15+ con Supabase
+- Row Level Security (RLS) para seguridad
+- APIs REST automáticas
+- Real-time subscriptions
+- Edge Functions para lógica de negocio
 
 ---
 
@@ -115,9 +120,10 @@ MussikOn es una **plataforma musical especializada** que conecta músicos profes
 ### **📚 [Stack Tecnológico](./STACK_TECNOLOGICO.md)**
 *Stack completo de tecnologías del proyecto*
 
-- **Backend**: .NET Core + ASP.NET Core + EF Core
-- **Frontend**: React Native + Expo + TypeScript
-- **Base de Datos**: SQL Server/PostgreSQL
+- **Backend**: .NET Core + ASP.NET Core + SignalR
+- **Frontend Móvil**: React Native + Expo + TypeScript
+- **Frontend Admin**: React + Next.js + Tailwind CSS
+- **Base de Datos**: Supabase + PostgreSQL + APIs automáticas
 - **DevOps**: Docker + Azure + CI/CD
 
 ---
