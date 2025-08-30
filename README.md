@@ -16,12 +16,13 @@
 
 **¿Eres desarrollador?** Ve directamente a tu área:
 - **🚀 [Backend](docs/backend/README.md)** - .NET Core + Clean Architecture
-- **📱 [Frontend](docs/frontend/README.md)** - React Native + Expo (mantenido)
-- **🗄️ [Database](docs/database/README.md)** - SQL Server/PostgreSQL + Entity Framework
+- **📱 [Frontend Móvil](docs/frontend/README.md)** - React Native + Expo
+- **🖥️ [Frontend Admin](docs/frontend/README.md)** - React Next.js + Tailwind CSS
+- **🗄️ [Database](docs/database/README.md)** - Supabase + PostgreSQL
 
 **¿Eres Product Owner o Scrum Master?** Ve a:
 - **👥 [Historias de Usuario](docs/HISTORIAS_USUARIO_ORGANIZADAS.md)** - Organizadas por prioridad
-- **📋 [Metodología Scrum](docs/scrum/readme.md)** - Proceso y ceremonias
+- **📅 [Sprints Frontend](docs/frontend/SPRINTS_FRONTEND.md)** - Planificación por sprints
 
 ---
 
@@ -123,16 +124,18 @@ Con MussikOn, cada usuario puede:
 - Interfaz optimizada con sistema de diseño unificado
 
 ### **🖥️ Frontend Admin (React Next.js)**
-- Panel de administración web
-- Gestión de usuarios y moderación
-- Analytics y reportes del sistema
-- Interfaz profesional con componentes reutilizables
+- Panel de administración web profesional
+- Gestión de usuarios y moderación del sistema
+- Analytics y reportes en tiempo real
+- Interfaz con componentes UI reutilizables
+
+
 
 ### **🗄️ Base de Datos (Supabase)**
-- PostgreSQL con APIs automáticas
-- Row Level Security para seguridad
+- PostgreSQL 15+ con APIs automáticas
+- Row Level Security (RLS) para seguridad
 - Real-time subscriptions para notificaciones
-- Sistema de auditoría completo
+- Sistema de auditoría completo y triggers
 
 ### **🎨 Sistema de Diseño (UI/UX)**
 - Paleta de colores basada en el logo MussikOn
@@ -182,26 +185,27 @@ Con MussikOn, cada usuario puede:
 
 ### **🏗️ Estructura Organizada por Áreas**
 - [🚀 Backend](docs/backend/README.md) - Stack .NET Core con Clean Architecture
-- [📱 Frontend](docs/frontend/README.md) - React Native con Expo y TypeScript
-- [🗄️ Database](docs/database/README.md) - SQL Server/PostgreSQL con Entity Framework
+- [📱 Frontend Móvil](docs/frontend/README.md) - React Native con Expo y TypeScript
+- [🖥️ Frontend Admin](docs/frontend/README.md) - React Next.js con Tailwind CSS
+- [🗄️ Database](docs/database/README.md) - Supabase con PostgreSQL
 
 ### **📋 Documentación General**
 - [📊 Etapas de Desarrollo](docs/ETAPAS_DESARROLLO.md) - Plan detallado por etapas y sprints
 - [🎯 Guía del MVP](docs/GUIA_MVP.md) - Desarrollo día a día del MVP
 - [👥 Historias de Usuario](docs/HISTORIAS_USUARIO_ORGANIZADAS.md) - Historias organizadas por prioridad
-- [📚 Versionamiento](docs/VERSIONAMIENTO_DOCUMENTACION.md) - Sistema de versionado de documentación
+- [📚 Stack Tecnológico](docs/STACK_TECNOLOGICO.md) - Sistema de versionado de documentación
 - [🛠️ Stack Tecnológico](docs/STACK_TECNOLOGICO.md) - Stack completo de tecnologías
-- [📱 Stack React Native](docs/STACK_REACT_NATIVE.md) - Stack detallado de React Native
-- [🗄️ Stack Database](docs/STACK_DATABASE.md) - Stack detallado de base de datos
-- [📈 Mejoras Implementadas](docs/MEJORAS_IMPLEMENTADAS.md) - Resumen de todas las mejoras
-- [📋 Metodología Scrum](docs/scrum/readme.md) - Proceso Scrum del proyecto
+- [📱 Stack Tecnológico Móvil](docs/frontend/STACK_TECNOLOGICO_MOVIL.md) - Stack detallado de React Native
+- [🖥️ Stack Tecnológico Admin](docs/frontend/STACK_TECNOLOGICO_ADMIN.md) - Stack detallado de React Next.js
+- [🗄️ Stack Tecnológico Database](docs/database/STACK_TECNOLOGICO_DATABASE.md) - Stack detallado de Supabase
+- [📅 Sprints Frontend](docs/frontend/SPRINTS_FRONTEND.md) - Planificación por sprints
 
 ### **📖 Documentación de Negocio**
 - [📋 Lógica de Negocio](docs/LOGICA_NEGOCIO.md) - Funcionalidades core y reglas de negocio
-- [🏗️ Modelo de Datos](docs/MODELO_DATOS.md) - Estructura de base de datos y entidades
-- [📅 Roadmap](docs/ROADMAP.md) - Plan de desarrollo y fases del proyecto
-- [🎯 Guía de Implementación](docs/guia_de_implementacion/RutadeImplementación.md) - Ruta priorizada de implementación
-- [UI/UX y Mejoras](docs/UI_UX/readme.md) - Estrategias de experiencia de usuario, accesibilidad y funcionalidades diferenciadoras
+- [🏗️ Estructura de Datos Completa](docs/database/ESTRUCTURA_DATOS_COMPLETA.md) - Estructura de base de datos y entidades
+- [📅 Etapas de Desarrollo](docs/ETAPAS_DESARROLLO.md) - Plan de desarrollo y fases del proyecto
+- [🎯 Guía del MVP](docs/GUIA_MVP.md) - Ruta priorizada de implementación
+- [🎨 Sistema de Diseño UI/UX](docs/frontend/GUIA_DISENO_UI_UX.md) - Estrategias de experiencia de usuario y accesibilidad
 
 ---
 
@@ -253,10 +257,10 @@ MussikOn está en constante evolución. Si tienes ideas, sugerencias o detectas 
 
 Nuestro roadmap está disponible públicamente para mantener transparencia con la comunidad:
 
-- [Roadmap Completo](docs/ROADMAP.md)
-- [Sprints Actuales](docs/scrum/Sprints/)
-- [Historias de Usuario](docs/scrum/Stories/)
-- [Mejoras Planificadas](docs/UI_UX/mejoras/mejoras_de_la_app.md)
+- [Etapas de Desarrollo](docs/ETAPAS_DESARROLLO.md)
+- [Sprints Frontend](docs/frontend/SPRINTS_FRONTEND.md)
+- [Historias de Usuario](docs/HISTORIAS_USUARIO_ORGANIZADAS.md)
+- [Sistema de Diseño UI/UX](docs/frontend/GUIA_DISENO_UI_UX.md)
 
 ---
 

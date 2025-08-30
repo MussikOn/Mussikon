@@ -9,9 +9,9 @@
 - [Configuración del Entorno Database](./CONFIGURACION_DATABASE.md) - Setup y variables de entorno
 
 ### **📅 Sprints y Desarrollo**
-- [Etapas de Desarrollo Database](./ETAPAS_DESARROLLO_DATABASE.md) - Plan completo por etapas
+- [Etapas de Desarrollo](../ETAPAS_DESARROLLO.md) - Plan completo por etapas
 - [Guía del MVP Database](./GUIA_MVP_DATABASE.md) - Desarrollo día a día del MVP
-- [Sprints de la Base de Datos](./SPRINTS_DATABASE.md) - Sprints específicos para database
+- [Stack Tecnológico Database](./STACK_TECNOLOGICO_DATABASE.md) - Tecnologías específicas
 
 ---
 
@@ -89,10 +89,10 @@
 - [Row Level Security Guide](https://supabase.com/docs/guides/auth/row-level-security)
 
 ### **🎯 Guías Específicas**
-- [Migración desde Firebase](./MIGRACION_FIREBASE.md) - Guía de migración
-- [Integración con .NET Core](./INTEGRACION_DOTNET.md) - Conexión con backend
-- [Deployment y CI/CD](./DEPLOYMENT.md) - Despliegue y automatización
-- [Performance y Optimización](./PERFORMANCE.md) - Mejoras de rendimiento
+- [Estructura de Datos Completa](./ESTRUCTURA_DATOS_COMPLETA.md) - Esquemas y tablas
+- [Análisis de Seguridad Crítico](./ANALISIS_SEGURIDAD_CRITICO.md) - Vulnerabilidades y soluciones
+- [Configuración del Entorno](./CONFIGURACION_DATABASE.md) - Setup y variables
+- [Stack Tecnológico Database](./STACK_TECNOLOGICO_DATABASE.md) - Tecnologías y herramientas
 
 ---
 

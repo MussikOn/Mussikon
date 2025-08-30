@@ -22,7 +22,7 @@
 - [Configuración del Entorno Admin](./CONFIGURACION_ADMIN.md) - Setup y variables de entorno
 
 ### **📅 Sprints y Desarrollo**
-- [Etapas de Desarrollo Frontend](./ETAPAS_DESARROLLO_FRONTEND.md) - Plan completo por etapas
+- [Etapas de Desarrollo](../ETAPAS_DESARROLLO.md) - Plan completo por etapas
 - [Guía del MVP Frontend](./GUIA_MVP_FRONTEND.md) - Desarrollo día a día del MVP
 - [Sprints del Frontend](./SPRINTS_FRONTEND.md) - Sprints específicos para frontend
 

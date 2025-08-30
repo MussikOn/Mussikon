@@ -11,27 +11,27 @@
 ### **📅 Sprints y Desarrollo**
 - [Etapas de Desarrollo](./ETAPAS_DESARROLLO.md) - Plan completo por etapas
 - [Guía del MVP](./GUIA_MVP.md) - Desarrollo día a día del MVP
-- [Sprints del Backend](./SPRINTS_BACKEND.md) - Sprints específicos para backend
+- [Stack Tecnológico](./STACK_TECNOLOGICO.md) - Stack completo de tecnologías
 
 ### **👥 Historias de Usuario**
-- [Historias de Usuario Organizadas](./HISTORIAS_USUARIO.md) - Todas las US del backend
-- [API Endpoints](./API_ENDPOINTS.md) - Documentación de APIs
-- [Autenticación y Seguridad](./AUTENTICACION.md) - JWT + Identity
+- [Historias de Usuario Organizadas](../HISTORIAS_USUARIO_ORGANIZADAS.md) - Todas las US del backend
+- [Sistema de Solicitudes](./SOLICITUDES_BACKEND.md) - Documentación de APIs
+- [Arquitectura del Sistema](./ARQUITECTURA.md) - JWT + Identity + Clean Architecture
 
 ### **🧪 Testing y Calidad**
-- [Estrategia de Testing](./TESTING.md) - xUnit + Moq + FluentAssertions
-- [Código de Calidad](./CALIDAD_CODIGO.md) - Estándares y métricas
-- [Performance y Optimización](./PERFORMANCE.md) - Caching y optimizaciones
+- [Stack Tecnológico](../STACK_TECNOLOGICO.md) - xUnit + Moq + FluentAssertions
+- [Arquitectura del Sistema](./ARQUITECTURA.md) - Estándares y métricas
+- [Configuración del Entorno](./CONFIGURACION.md) - Caching y optimizaciones
 
 ### **🚀 DevOps y Despliegue**
-- [CI/CD Pipeline](./CI_CD.md) - GitHub Actions
-- [Docker y Contenedores](./DOCKER.md) - Containerización
-- [Monitoreo y Logs](./MONITOREO.md) - Observabilidad
+- [Configuración del Entorno](./CONFIGURACION.md) - GitHub Actions + Docker
+- [Arquitectura del Sistema](./ARQUITECTURA.md) - Containerización
+- [Stack Tecnológico](../STACK_TECNOLOGICO.md) - Observabilidad
 
 ### **📚 Recursos y Referencias**
-- [Documentación .NET Core](./REFERENCIAS_DOTNET.md) - Enlaces oficiales
-- [Patrones de Diseño](./PATRONES_DISENO.md) - Arquitectura limpia
-- [Troubleshooting](./TROUBLESHOOTING.md) - Problemas comunes
+- [Documentación .NET Core](https://docs.microsoft.com/en-us/dotnet/) - Enlaces oficiales
+- [Arquitectura del Sistema](./ARQUITECTURA.md) - Arquitectura limpia
+- [Stack Tecnológico](../STACK_TECNOLOGICO.md) - Tecnologías y patrones
 
 ---
 
@@ -452,11 +452,11 @@ public class MusicianRequestController : ControllerBase
 
 ## 🔗 **Enlaces Rápidos**
 
-- [📋 Sprint Actual](./SPRINTS_BACKEND.md#sprint-actual)
-- [🎯 Sistema de Solicitudes](./SOLICITUDES_MUSICOS.md)
-- [🐛 Issues Conocidos](./TROUBLESHOOTING.md)
-- [📊 Métricas en Tiempo Real](./MONITOREO.md)
-- [🚀 Deploy Status](./CI_CD.md#status-deploy)
+- [📋 Guía del MVP](../GUIA_MVP.md#sprint-actual)
+- [🎯 Sistema de Solicitudes](./SOLICITUDES_BACKEND.md)
+- [🏗️ Arquitectura](./ARQUITECTURA.md)
+- [⚙️ Configuración](./CONFIGURACION.md)
+- [📚 Stack Tecnológico](../STACK_TECNOLOGICO.md)
 
 ---
 
