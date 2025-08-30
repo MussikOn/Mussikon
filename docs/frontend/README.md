@@ -2,6 +2,13 @@
 
 ## 📋 **Índice General del Frontend**
 
+### **🎨 Sistema de Diseño**
+- [Guía de Diseño UI/UX](./GUIA_DISENO_UI_UX.md) - **PRINCIPIOS DE DISEÑO** y patrones
+- [Paleta de Colores](./PALETA_COLORES.md) - Colores del logo y sistema
+- [Tipografía](./TIPOGRAFIA.md) - Jerarquía y familias de fuentes
+- [Componentes UI](./COMPONENTES_UI.md) - Biblioteca de componentes reutilizables
+- [Iconografía](./ICONOGRAFIA.md) - Sistema de iconos y símbolos
+
 ### **📱 Frontend Móvil (React Native + Expo)**
 - [Stack Tecnológico Móvil](./STACK_TECNOLOGICO_MOVIL.md) - Tecnologías React Native y Expo
 - [Arquitectura Móvil](./ARQUITECTURA_MOVIL.md) - Patrones y estructura del frontend móvil
@@ -22,6 +29,14 @@
 ---
 
 ## 🎯 **Enfoque del Frontend**
+
+### **🎨 Sistema de Diseño - UI/UX**
+**Propósito**: Establecer los fundamentos visuales y de experiencia de usuario:
+- **Paleta de Colores**: Colores del logo MussikOn y sistema extendido
+- **Tipografía**: Sistema tipográfico con Inter como fuente principal
+- **Componentes UI**: Biblioteca de componentes reutilizables y consistentes
+- **Iconografía**: Sistema de iconos unificado para ambas plataformas
+- **Patrones de UX**: Guías para navegación, formularios y interacciones
 
 ### **📱 Frontend Móvil - React Native + Expo**
 **Propósito**: Aplicación móvil nativa para músicos y organizadores que permite:
@@ -120,7 +135,9 @@
 
 ## 🚀 **Próximos Pasos**
 
-1. **📱 [Stack Tecnológico Móvil](./STACK_TECNOLOGICO_MOVIL.md)** - Conoce las tecnologías React Native
-2. **🖥️ [Stack Tecnológico Admin](./STACK_TECNOLOGICO_ADMIN.md)** - Conoce las tecnologías Next.js
-3. **🏗️ [Arquitectura Móvil](./ARQUITECTURA_MOVIL.md)** - Entiende la estructura del frontend móvil
-4. **🎯 [Sistema de Solicitudes Móvil](./SOLICITUDES_MOVIL.md)** - Core del negocio en móvil
+1. **🎨 [Guía de Diseño UI/UX](./GUIA_DISENO_UI_UX.md)** - **PRINCIPIOS DE DISEÑO** y patrones
+2. **🎨 [Paleta de Colores](./PALETA_COLORES.md)** - Colores del logo y sistema visual
+3. **📱 [Stack Tecnológico Móvil](./STACK_TECNOLOGICO_MOVIL.md)** - Conoce las tecnologías React Native
+4. **🖥️ [Stack Tecnológico Admin](./STACK_TECNOLOGICO_ADMIN.md)** - Conoce las tecnologías Next.js
+5. **🏗️ [Arquitectura Móvil](./ARQUITECTURA_MOVIL.md)** - Entiende la estructura del frontend móvil
+6. **🎯 [Sistema de Solicitudes Móvil](./SOLICITUDES_MOVIL.md)** - Core del negocio en móvil

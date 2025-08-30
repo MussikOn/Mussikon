@@ -91,10 +91,12 @@ Con MussikOn, cada usuario puede:
 
 ### **Stack Tecnológico**
 - **Backend**: .NET 8.0 + ASP.NET Core Web API + Clean Architecture
-- **Frontend**: React Native 0.79.5+ + TypeScript + Expo (mantenido)
-- **Base de Datos**: SQL Server/PostgreSQL + Entity Framework Core 8.0+
+- **Frontend Móvil**: React Native 0.79.5+ + Expo + TypeScript
+- **Frontend Admin**: React 18+ + Next.js 14+ + Tailwind CSS
+- **Base de Datos**: Supabase + PostgreSQL + APIs automáticas
+- **Sistema de Diseño**: Paleta de colores unificada + Tipografía Inter + Componentes UI
 - **Cache**: Redis para optimización de performance
-- **Testing**: xUnit + Moq + FluentAssertions
+- **Testing**: xUnit + Moq + FluentAssertions + Jest + React Testing Library
 - **DevOps**: Docker + Azure + CI/CD automatizado
 
 ### **Características Técnicas**
@@ -104,6 +106,39 @@ Con MussikOn, cada usuario puede:
 - **Autenticación JWT** con refresh tokens automáticos
 - **Comunicación en tiempo real** con SignalR
 - **Encriptación end-to-end** para seguridad máxima
+
+---
+
+## 🏗️ **Arquitectura Completa del Sistema**
+
+### **🚀 Backend (.NET Core)**
+- API REST con Clean Architecture
+- Sistema de Solicitudes de Músicos (core del negocio)
+- Autenticación JWT + SignalR para tiempo real
+
+### **📱 Frontend Móvil (React Native + Expo)**
+- Aplicación nativa para iOS y Android
+- Gestión de solicitudes y comunicación en tiempo real
+- Offline support y sincronización automática
+- Interfaz optimizada con sistema de diseño unificado
+
+### **🖥️ Frontend Admin (React Next.js)**
+- Panel de administración web
+- Gestión de usuarios y moderación
+- Analytics y reportes del sistema
+- Interfaz profesional con componentes reutilizables
+
+### **🗄️ Base de Datos (Supabase)**
+- PostgreSQL con APIs automáticas
+- Row Level Security para seguridad
+- Real-time subscriptions para notificaciones
+- Sistema de auditoría completo
+
+### **🎨 Sistema de Diseño (UI/UX)**
+- Paleta de colores basada en el logo MussikOn
+- Sistema tipográfico con Inter como fuente principal
+- Biblioteca de componentes UI unificada
+- Iconografía consistente para ambas plataformas
 
 ---
 
