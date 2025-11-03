@@ -1,4 +1,29 @@
-# 🏗️ **ÍNDICE PRINCIPAL - MUSSIKON API**
+# 🏗️ **ÍNDICE PRINCIPAL - MUSSIKON**
+
+## ⚠️ **IMPORTANTE: Esta es Documentación de Planificación**
+
+**Este directorio contiene documentación de planificación conceptual** que describe un proyecto basado en tecnologías que **NO fueron implementadas** (.NET Core, React Native, etc.).
+
+---
+
+## 🚀 **Proyecto Real Implementado**
+
+**El proyecto REAL implementado y en producción se encuentra en:**
+
+### **[`../MussikonWeb`](../MussikonWeb)** - Proyecto Principal
+
+**Estado:** ✅ **96% completo, en producción (Vercel)**  
+**Versión:** 1.0.0 MVP  
+**Stack Real:** Node.js + Express + TypeScript + PostgreSQL (Supabase)
+
+**⭐ EMPIEZA AQUÍ:**
+
+- **[README Principal](../MussikonWeb/README.md)** - Visión general del proyecto real
+- **[Índice Maestro](../MussikonWeb/docs/00-INDICE.md)** - Navegación completa
+- **[Estado Actual](../MussikonWeb/docs/06-desarrollo/ESTADO_ACTUAL.md)** - Funcionalidades implementadas
+- **[MVP Resumen Rápido](../MussikonWeb/MVP_RESUMEN_RAPIDO.md)** - Estado del MVP
+
+---
 
 ## 🎯 **Visión General del Proyecto**
 
@@ -6,277 +31,101 @@ MussikOn es una **plataforma musical especializada** que conecta músicos profes
 
 **Enfoque Principal**: Sistema de Solicitudes de Músicos (100% del MVP)
 
-- **🚀 Backend**: .NET Core 8.0+ con ASP.NET Core Web API
-- **📱 Frontend**: React Native 0.79.5+ con Expo y TypeScript (mantenido)
-- **🗄️ Base de Datos**: SQL Server/PostgreSQL con Entity Framework Core
+**Stack Real Implementado:**
+
+- **🚀 Backend**: Node.js + Express + TypeScript
+- **🗄️ Base de Datos**: PostgreSQL (Supabase) con 16 migraciones
+- **📱 Frontend**: ⏳ Pendiente (móvil y admin)
+- **☁️ Deploy**: Vercel (serverless)
 
 ---
 
-## 🚀 **¡Nuevo en el Proyecto? ¡Empieza Aquí!**
+## 📚 **Contenido de este Directorio (Planificación)**
 
-### **📖 [Primeros Pasos](../PRIMEROS_PASOS.md)**
-*Guía completa para nuevos usuarios del proyecto*
+### **📄 Documentos con Valor Conceptual**
 
-**Este documento te ayudará a:**
-- Entender qué es MussikOn y su propósito
-- Identificar tu rol y cómo proceder
-- Conocer la ruta de implementación recomendada
-- Encontrar las herramientas necesarias
-- Acceder a la documentación esencial
+Estos documentos pueden tener valor como referencia de diseño/planificación:
 
----
+#### **Conceptos de Negocio**
 
-## 📁 **Estructura Organizada por Áreas**
+- [`LOGICA_NEGOCIO.md`](LOGICA_NEGOCIO.md) - Lógica de negocio y funcionalidades core
+- [`HISTORIAS_USUARIO_ORGANIZADAS.md`](HISTORIAS_USUARIO_ORGANIZADAS.md) - Historias de usuario
+- [`ETAPAS_DESARROLLO.md`](ETAPAS_DESARROLLO.md) - Roadmap planificado
+- [`GUIA_MVP.md`](GUIA_MVP.md) - Planificación del MVP
+- [`PRIMEROS_PASOS.md`](PRIMEROS_PASOS.md) - Guía de inicio (planificación)
 
-### **🚀 [BACKEND](./backend/README.md)**
-*Stack .NET Core con Clean Architecture*
+#### **Diseño UI/UX (Conceptual)**
 
-- **🏗️ Arquitectura**: [Arquitectura del Sistema](./backend/ARQUITECTURA.md)
-- **🎯 Solicitudes**: [Sistema de Solicitudes](./backend/SOLICITUDES_BACKEND.md)
-- **📅 MVP**: [Guía del MVP](../GUIA_MVP.md)
-- **👥 Historias**: [Historias de Usuario Organizadas](../HISTORIAS_USUARIO_ORGANIZADAS.md)
-- **🧪 Stack**: [Stack Tecnológico](../STACK_TECNOLOGICO.md)
-- **🚀 Config**: [Configuración del Entorno](./backend/CONFIGURACION.md)
+- [`frontend/GUIA_DISENO_UI_UX.md`](frontend/GUIA_DISENO_UI_UX.md) - Guías de diseño
+- [`frontend/PALETA_COLORES.md`](frontend/PALETA_COLORES.md) - Paleta de colores
+- [`frontend/TIPOGRAFIA.md`](frontend/TIPOGRAFIA.md) - Tipografía
+- [`frontend/ICONOGRAFIA.md`](frontend/ICONOGRAFIA.md) - Iconografía
+- [`frontend/COMPONENTES_UI.md`](frontend/COMPONENTES_UI.md) - Componentes UI
 
-**Tecnologías Principales**:
-- .NET 8.0+ y ASP.NET Core Web API
-- Entity Framework Core 8.0+
-- JWT + Identity para autenticación
-- SignalR para comunicación en tiempo real
-- xUnit + Moq + FluentAssertions
-- Clean Architecture + SOLID Principles
+### **📄 Documentos Obsoletos (Stack .NET/React)**
+
+Los siguientes documentos describen tecnologías que NO fueron implementadas y son obsoletos:
+
+- **Backend (.NET Core):** `backend/*.md` - Stack .NET no implementado
+- **Frontend (React Native/Next.js):** `frontend/ARQUITECTURA_*.md`, `frontend/CONFIGURACION_*.md`, etc.
+- **Database:** `database/ARQUITECTURA_*.md`, `database/CONFIGURACION_*.md`, etc.
+- **Stack Tecnológico:** `STACK_TECNOLOGICO.md` - Stack .NET planificado
 
 ---
 
-### **📱 [FRONTEND](./frontend/README.md)**
-*React Native + Expo para móvil y React Next.js para admin*
+## 📊 **Comparación: Planificación vs Realidad**
 
-- **📱 Móvil**: [Stack Tecnológico Móvil](./frontend/STACK_TECNOLOGICO_MOVIL.md)
-- **🖥️ Admin**: [Stack Tecnológico Admin](./frontend/STACK_TECNOLOGICO_ADMIN.md)
-- **🎯 Solicitudes Móvil**: [Sistema de Solicitudes Móvil](./frontend/SOLICITUDES_MOVIL.md)
-- **🎯 Solicitudes Admin**: [Sistema de Solicitudes Admin](./frontend/SOLICITUDES_ADMIN.md)
-- **📅 Sprints**: [Sprints del Frontend](./frontend/SPRINTS_FRONTEND.md)
-- **👥 Historias**: [Historias de Usuario](./frontend/HISTORIAS_USUARIO.md)
-- **🎯 MVP**: [Guía del MVP Frontend](./frontend/GUIA_MVP_FRONTEND.md)
-- **🎨 UI/UX**: [Sistema de Diseño](./frontend/GUIA_DISENO_UI_UX.md)
-
-**Tecnologías Principales**:
-- **Móvil**: React Native 0.79.5+ con Expo SDK 53.0.0
-- **Admin**: React 18+ con Next.js 14+ y TypeScript
-- **Estado**: Redux Toolkit + React Query + Zustand
-- **UI**: Tailwind CSS + Headless UI + Framer Motion
-- **Testing**: Jest + React Testing Library + Cypress
+| Aspecto            | Planificación (Este directorio)    | Realidad (MussikonWeb)         |
+| ------------------ | ---------------------------------- | ------------------------------ |
+| **Stack Backend**  | .NET Core 8.0 + Clean Architecture | Node.js + Express + TypeScript |
+| **Base de Datos**  | SQL Server/PostgreSQL + EF Core    | PostgreSQL (Supabase) directo  |
+| **ORM**            | Entity Framework Core              | Queries SQL directas           |
+| **Frontend Móvil** | React Native + Expo                | ⏳ Pendiente                   |
+| **Frontend Admin** | React Next.js                      | ⏳ Pendiente                   |
+| **Deploy**         | Azure + Docker                     | Vercel (serverless)            |
+| **Estado**         | Planificación conceptual           | ✅ 96% completo, en producción |
+| **Endpoints**      | Planificados                       | ✅ 135+ documentados           |
+| **Tests**          | Planificados (xUnit)               | ✅ 140+ tests (Jest)           |
 
 ---
 
-### **🗄️ [DATABASE](./database/README.md)**
-*Supabase con PostgreSQL y APIs automáticas*
+## 🎯 **Recomendación de Uso**
 
-- **🏗️ Arquitectura**: [Arquitectura de la Base de Datos](./database/ARQUITECTURA_DATABASE.md)
-- **🗄️ Estructura**: [Estructura de Datos Completa](./database/ESTRUCTURA_DATOS_COMPLETA.md)
-- **🚨 Seguridad**: [Análisis Crítico de Seguridad](./database/ANALISIS_SEGURIDAD_CRITICO.md)
-- **🎯 Solicitudes**: [Sistema de Solicitudes](./database/SOLICITUDES_DATABASE.md)
-- **📅 MVP**: [Guía del MVP Database](./database/GUIA_MVP_DATABASE.md)
-- **👥 Historias**: [Historias de Usuario Organizadas](../HISTORIAS_USUARIO_ORGANIZADAS.md)
-- **🧪 Stack**: [Stack Tecnológico Database](./database/STACK_TECNOLOGICO_DATABASE.md)
-- **🚀 Config**: [Configuración del Entorno](./database/CONFIGURACION_DATABASE.md)
+### **Para Desarrolladores:**
 
-**Tecnologías Principales**:
-- PostgreSQL 15+ con Supabase
-- Row Level Security (RLS) para seguridad
-- APIs REST automáticas
-- Real-time subscriptions
-- Edge Functions para lógica de negocio
+**NO uses esta documentación para:**
 
----
+- ❌ Configurar el entorno de desarrollo
+- ❌ Entender la arquitectura implementada
+- ❌ Implementar funcionalidades
+- ❌ Configurar despliegues
 
-## 📋 **Documentación General del Proyecto**
+**SÍ puedes usar esta documentación para:**
 
-### **📊 [Etapas de Desarrollo](./ETAPAS_DESARROLLO.md)**
-*Plan completo de desarrollo dividido en 4 etapas*
+- ✅ Entender conceptos de negocio
+- ✅ Referenciar diseños UI/UX conceptuales
+- ✅ Consultar historias de usuario y casos de uso
+- ✅ Ver roadmap y planificación original
 
-- **Etapa 1**: MVP - Sistema de Solicitudes (8 semanas) - **ENFOQUE PRINCIPAL**
-- **Etapa 2**: Optimización y Escalabilidad (12 semanas)
-- **Etapa 3**: Expansión y Diferenciación (16 semanas)
-- **Etapa 4**: Liderazgo e Innovación (20 semanas)
+### **Para Product Owners / Business:**
 
-### **🎯 [Guía del MVP](./GUIA_MVP.md)**
-*Desarrollo día a día del MVP con cronograma detallado*
+Esta documentación puede tener valor como referencia de:
 
-- **Backend**: 4 semanas de desarrollo (Solicitudes + Auth)
-- **Frontend**: 2 semanas de desarrollo (UI de Solicitudes)
-- **Base de Datos**: 1 semana de desarrollo (Esquemas)
-- **Integración**: 1 semana de testing y deployment
-
-### **👥 [Historias de Usuario Organizadas](./HISTORIAS_USUARIO_ORGANIZADAS.md)**
-*Historias de usuario organizadas por prioridad y sprint*
-
-- **Prioridad P0**: Sistema de Solicitudes (100% del MVP)
-- **Prioridad P1**: Autenticación y Chat
-- **Prioridad P2**: Sistema de Pagos
-- **Prioridad P3**: Funcionalidades avanzadas
-
-### **📚 [Stack Tecnológico](./STACK_TECNOLOGICO.md)**
-*Stack completo de tecnologías del proyecto*
-
-- **Backend**: .NET Core + ASP.NET Core + SignalR
-- **Frontend Móvil**: React Native + Expo + TypeScript
-- **Frontend Admin**: React + Next.js + Tailwind CSS
-- **Base de Datos**: Supabase + PostgreSQL + APIs automáticas
-- **DevOps**: Docker + Azure + CI/CD
+- Lógica de negocio y reglas
+- Historias de usuario
+- Roadmap y fases planificadas
+- Diseños conceptuales de UI/UX
 
 ---
 
-## 🔗 **Navegación Rápida por Áreas**
+## 🚀 **Siguiente Paso**
 
-### **🚀 Para Nuevos Usuarios**
-1. **📖 [Primeros Pasos](../PRIMEROS_PASOS.md)** - **¡EMPEZAR AQUÍ!**
-2. **📋 [Índice Principal](./INDICE_PRINCIPAL.md)** - Navegación completa
-3. **🎯 [Guía del MVP](./GUIA_MVP.md)** - Plan de desarrollo día a día
-4. **📊 [Etapas de Desarrollo](./ETAPAS_DESARROLLO.md)** - Roadmap completo
+**Para trabajar con el proyecto real, ve a:**
 
-### **🚀 Para Desarrolladores Backend**
-1. **Empezar**: [README Backend](./backend/README.md)
-2. **Arquitectura**: [Arquitectura del Sistema](./backend/ARQUITECTURA.md)
-3. **Core**: [Sistema de Solicitudes](./backend/SOLICITUDES_BACKEND.md)
-4. **Stack**: [Stack Tecnológico](../STACK_TECNOLOGICO.md)
-
-### **📱 Para Desarrolladores Frontend**
-1. **Empezar**: [README Frontend](./frontend/README.md)
-2. **Arquitectura Móvil**: [Arquitectura del Frontend Móvil](./frontend/ARQUITECTURA_MOVIL.md)
-3. **Arquitectura Admin**: [Arquitectura del Frontend Admin](./frontend/ARQUITECTURA_ADMIN.md)
-4. **Core Móvil**: [Sistema de Solicitudes Móvil](./frontend/SOLICITUDES_MOVIL.md)
-5. **Core Admin**: [Sistema de Solicitudes Admin](./frontend/SOLICITUDES_ADMIN.md)
-
-### **🗄️ Para Desarrolladores de Base de Datos**
-1. **Empezar**: [README Database](./database/README.md)
-2. **Arquitectura**: [Arquitectura de la Base de Datos](./database/ARQUITECTURA_DATABASE.md)
-3. **Core**: [Sistema de Solicitudes](./database/SOLICITUDES_DATABASE.md)
-4. **Stack**: [Stack Tecnológico Database](./database/STACK_TECNOLOGICO_DATABASE.md)
-5. **Estructura**: [Estructura de Datos Completa](./database/ESTRUCTURA_DATOS_COMPLETA.md)
-
-### **👥 Para Product Owners y Scrum Masters**
-1. **Roadmap**: [Etapas de Desarrollo](./ETAPAS_DESARROLLO.md)
-2. **MVP**: [Guía del MVP](./GUIA_MVP.md)
-3. **Historias**: [Historias de Usuario Organizadas](./HISTORIAS_USUARIO_ORGANIZADAS.md)
-4. **Sprints**: [Sprints Frontend](./frontend/SPRINTS_FRONTEND.md)
+[**`../MussikonWeb/README.md`**](../MussikonWeb/README.md) ⭐
 
 ---
 
-## 📊 **Estado del Proyecto**
-
-### **✅ Completado**
-- [x] Análisis exhaustivo del proyecto Express.js
-- [x] Definición de stack tecnológico .NET Core
-- [x] Plan de desarrollo por etapas
-- [x] Organización de historias de usuario
-- [x] Estructura de sprints por área
-- [x] Documentación técnica detallada
-- [x] Estructura organizada por carpetas
-- [x] Documentación de historias de usuario por área
-- [x] Guía de primeros pasos para nuevos usuarios
-
-### **🚧 En Progreso**
-- [ ] Configuración de proyecto .NET Core
-- [ ] Setup de base de datos SQL Server/PostgreSQL
-- [ ] Implementación del sistema de solicitudes
-
-### **📋 Próximos Pasos**
-1. **Configurar proyectos técnicos** (.NET Core, Base de Datos)
-2. **Implementar MVP** según cronograma de 8 semanas
-3. **Testing y validación** de funcionalidades core
-4. **Deployment a producción** del MVP
-
----
-
-## 🔍 **Búsqueda Rápida por Tema**
-
-### **🎯 Sistema de Solicitudes (CORE)**
-- [Sistema de Solicitudes Backend](./backend/SOLICITUDES_BACKEND.md)
-- [Sistema de Solicitudes Frontend Móvil](./frontend/SOLICITUDES_MOVIL.md)
-- [Sistema de Solicitudes Frontend Admin](./frontend/SOLICITUDES_ADMIN.md)
-- [Sistema de Solicitudes Database](./database/SOLICITUDES_DATABASE.md)
-- [Lógica de Negocio](./LOGICA_NEGOCIO.md)
-- [Estructura de Datos Completa](./database/ESTRUCTURA_DATOS_COMPLETA.md)
-
-### **🏗️ Arquitectura y Diseño**
-- [Arquitectura Backend](./backend/ARQUITECTURA.md)
-- [Arquitectura Frontend Móvil](./frontend/ARQUITECTURA_MOVIL.md)
-- [Arquitectura Frontend Admin](./frontend/ARQUITECTURA_ADMIN.md)
-- [Arquitectura Base de Datos](./database/ARQUITECTURA_DATABASE.md)
-
-### **📅 Sprints y Desarrollo**
-- [Sprints Frontend](./frontend/SPRINTS_FRONTEND.md)
-- [Guía MVP Backend](./GUIA_MVP.md)
-- [Guía MVP Frontend](./frontend/GUIA_MVP_FRONTEND.md)
-- [Guía MVP Database](./database/GUIA_MVP_DATABASE.md)
-
-### **🧪 Testing y Calidad**
-- [Stack Tecnológico Backend](./STACK_TECNOLOGICO.md)
-- [Stack Tecnológico Frontend Móvil](./frontend/STACK_TECNOLOGICO_MOVIL.md)
-- [Stack Tecnológico Frontend Admin](./frontend/STACK_TECNOLOGICO_ADMIN.md)
-- [Stack Tecnológico Database](./database/STACK_TECNOLOGICO_DATABASE.md)
-
-### **🚀 DevOps y Deployment**
-- [Configuración Backend](./backend/CONFIGURACION.md)
-- [Configuración Frontend Móvil](./frontend/CONFIGURACION_MOVIL.md)
-- [Configuración Frontend Admin](./frontend/CONFIGURACION_ADMIN.md)
-- [Configuración Database](./database/CONFIGURACION_DATABASE.md)
-
----
-
-## 📚 **Recursos y Referencias**
-
-### **🔗 Enlaces Oficiales**
-- [.NET 8 Documentation](https://docs.microsoft.com/en-us/dotnet/)
-- [React Native Documentation](https://reactnative.dev/)
-- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
-- [Expo Documentation](https://docs.expo.dev/)
-
-### **📖 Documentación del Proyecto**
-- [Lógica de Negocio](./LOGICA_NEGOCIO.md)
-- [Estructura de Datos Completa](./database/ESTRUCTURA_DATOS_COMPLETA.md)
-- [Análisis de Seguridad Crítico](./database/ANALISIS_SEGURIDAD_CRITICO.md)
-- [Resumen de Estructura de Datos](./database/RESUMEN_ESTRUCTURA_DATOS.md)
-
----
-
-## 📞 **Contacto y Soporte**
-
-### **👥 Equipo del Proyecto**
-- **Product Owner**: [Nombre del PO]
-- **Scrum Master**: [Nombre del SM]
-- **Tech Lead**: [Nombre del TL]
-- **Desarrolladores**: [Lista de desarrolladores]
-
-### **📧 Canales de Comunicación**
-- **Email**: [email del proyecto]
-- **Slack**: [canal del proyecto]
-- **GitHub**: [repositorio del proyecto]
-- **Documentación**: [enlace a documentación]
-
----
-
-## 🎵 **Enfoque del Proyecto**
-
-### **🎯 Sistema de Solicitudes de Músicos (100% MVP)**
-- **Creación de solicitudes** por organizadores
-- **Búsqueda inteligente** de músicos disponibles
-- **Aplicación automática** de músicos interesados
-- **Notificaciones en tiempo real** vía SignalR
-- **Gestión de estados** del ciclo de vida
-- **Chat integrado** para coordinación
-- **Sistema de matching** con algoritmos de scoring
-
-### **🚫 NO Incluido en MVP**
-- **Creación de eventos** (se enfoca en solicitudes)
-- **Gestión de calendarios** (funcionalidad futura)
-- **Sistema de reviews** (post-MVP)
-- **Marketplace** (fase 3)
-
----
-
-*Última actualización: Diciembre 2024*
-*Versión: v1.0.0*
-*Estado: Estructura Organizada Completada*
-*Enfoque: Sistema de Solicitudes de Músicos*
+**Última actualización:** Enero 2025  
+**Estado:** Documentación de planificación (no implementada)  
+**Proyecto Real:** [`../MussikonWeb`](../MussikonWeb)
